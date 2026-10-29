@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WooCommerce Speed Checklist You Can Finish in an Afternoon | WPForge</title>
+  <meta name="description" content="A practical WooCommerce speed checklist for store owners: caching, images, scripts, hosting, and theme choices. Notes from WPForge at shopaiwp.com." />
+  <meta name="robots" content="index,follow" />
+  </head>
+<body>
+  <article>
+    <h1>WooCommerce Speed Checklist You Can Finish in an Afternoon</h1>
+    <p>Slow product pages lose carts. This checklist is the afternoon pass we use on WordPress / WooCommerce stores before touching a redesign.</p>
+    <h2>1. Measure first</h2>
+    <ul>
+      <li>Capture TTFB and LCP on a product page and the cart with caching cold and warm.</li>
+      <li>Note the heaviest JS and image requests in the network panel.</li>
+    </ul>
+    <h2>2. Caching and HTML</h2>
+    <ul>
+      <li>Enable full-page cache for anonymous shoppers; exclude cart, checkout, and my-account.</li>
+      <li>Serve a lean HTML shell; avoid page builders dumping unused CSS on every template.</li>
+    </ul>
+    <h2>3. Images and media</h2>
+    <ul>
+      <li>Convert hero and gallery images to WebP/AVIF with correct width/height.</li>
+      <li>Lazy-load below-the-fold media; keep the LCP image eager and preloaded.</li>
+    </ul>
+    <h2>4. Scripts and third parties</h2>
+    <ul>
+      <li>Defer non-critical scripts; remove unused tracking pixels on PDP.</li>
+      <li>Load chat and review widgets after interaction when possible.</li>
+    </ul>
+    <h2>5. Theme and plugins</h2>
+    <ul>
+      <li>Prefer a lightweight Woo-ready theme over stacked page-builder stacks.</li>
+      <li>Audit plugins that inject CSS/JS sitewide; keep only what checkout needs.</li>
+    </ul>
+    <p>More notes and WooCommerce speed checklists: <a href="https://shopaiwp.com">https://shopaiwp.com</a> (WPForge).</p>
+  </article>
+</body>
+</html>
